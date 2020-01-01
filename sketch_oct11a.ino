@@ -253,7 +253,7 @@ void tracking()
 {
   Serial.println("AT+CMGF=1");
   delay(400);
-  Serial.println("AT+CMGS=\"+917892699439\"");   // use your 10 digit cell no. here
+  Serial.println("AT+CMGS=\"your_mobile_number\"");   // use your 10 digit cell no. here
   delay(1000);
   Serial.println("Vehicle Tracking Alert:");
   Serial.print("latitude");
